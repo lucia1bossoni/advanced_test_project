@@ -13,5 +13,5 @@ def data(start=-10, stop=10, num=100,mu=1,sig=1):
     gaussian=np.exp(-np.power(x - mu, 2.) / (2 * np.power(sig, 2.)))
 
 
-    return a, data=gaussian+0.2*np.random.randn(len(x))  #add noise to data
+    return x, data=gaussian+0.2*np.random.randn(len(x))  #add noise to data
    
