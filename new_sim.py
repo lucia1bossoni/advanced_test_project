@@ -3,10 +3,8 @@ Specify the start,stop and number of points of the independent variable, as wel 
 """
 
 import numpy as np
-from scipy.stats import norm
-%matplotlib inline
 import matplotlib.pyplot as plt
-import scipy.optimize as optimization
+
 
 #simulates a gaussian with random noise
 
